@@ -1,0 +1,12 @@
+VertexLitGeneric
+{
+	$basetexture		"models/niobium/deadlock/rem/familiar_helper_body_albedo"
+	
+	$halflambert 1
+	
+	$detail models/niobium/deadlock/rem/rem_outline_color
+	$detailscale 1
+	$detailblendfactor .7
+	$detailblendmode 0
+	
+}
