@@ -1,0 +1,36 @@
+VertexLitGeneric
+{
+	$basetexture		"models/niobium/deadlock/rem/familiar_body_albedo"
+	$bumpmap			"models/niobium/deadlock/rem/rem_generic_normal_w_alpha"
+
+	$envmap						"env_cubemap"
+	$envmaptint					"[0.1 0.1 0.1]"
+	$envmapcontrast				1.0
+	$envmapmask					"models/niobium/deadlock/rem/rem_generic_envmap"
+	$envmaplightscale			1.0
+
+	$phong 1
+	$phongexponenttexture		"models/niobium/deadlock/rem/rem_generic_phongexp"
+	$phongalbedotint 1
+	$phongalbedoboost 100
+	$phongboost					5.0
+	$phongfresnelranges			"[0.5 0.8 1.0]"
+	
+	"$lightwarptexture" "models/niobium/deadlock/rem/new shader"
+	
+	$detail "models/niobium/deadlock/rem/familiar_stars"
+	$detailscale 1
+	$detailblendfactor .4
+	$detailblendmode 4
+	
+	   "Proxies"
+        {
+			"TextureScroll"
+            {
+                "textureScrollVar" "$detailtexturetransform"
+                "textureScrollRate" .05
+                "textureScrollAngle" 180
+				textureScale 1
+            }
+        }
+}
